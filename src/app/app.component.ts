@@ -7,4 +7,15 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'menubar';
+  className = "inactive"
+  loggedIn = !false;
+
+
+  toggleSideBar() {
+    if (this.className == "active")
+      this.className = "inactive"
+    else
+      this.className = "active"
+  }
+
 }

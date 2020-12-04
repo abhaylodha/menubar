@@ -24,9 +24,16 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "src/shared/css/bootstrap.min-4.1.0.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/shared/js/solid-5.0.13.js",
+              "src/shared/js/fontawesome-5.0.13.js",
+              "src/shared/js/jquery-3.3.1.slim.min.js",
+              "src/shared/js/popper.min-1.14.0.js",
+              "src/shared/js/bootstrap.min-4.1.0.js"
+            ]
           },
           "configurations": {
             "production": {
